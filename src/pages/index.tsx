@@ -52,7 +52,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-violet-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-violet-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image alt="" src={deved} layout="fill" objectFit="cover"/>
           </div>
         </section>
@@ -62,14 +62,14 @@ export default function Home() {
           <div>
             <br>
             </br>
-            <h3 className="text-3xl py-1 dark:text-gray-100">About Me</h3>
+            <h3 className="text-3xl py-1 dark:text-gray-100 mt-10">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
             As an <span className="text-violet-500 py-10">Assistant Manager</span>, <span className="text-violet-500">IT Analyst</span>, and <span className="text-violet-500">Full-Stack Developer</span>, I have gained a diverse set of skills and experiences that have equipped me to excel in a variety of roles. My passion for technology and problem-solving has driven me to continuously improve my skills and stay up-to-date with the latest trends and technologies. I am a strong <span className="text-violet-500">communicator</span> and <span className="text-violet-500">collaborator</span>, and I am always looking for new challenges to tackle.
             </p>
             <br />
             <h3 className="text-3xl py-1 dark:text-gray-100">Job Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-            I am a highly skilled and experienced professional with a background in <span className="text-violet-500 py-10">technician mechanic course</span>, <span className="text-violet-500 py-10">full stack development</span>, and <span className="text-violet-500 py-10">data engineering</span>.
+            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development. I am skilled in using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
             </p>
           </div>
           <div className="lg:flex gap-10" >
@@ -77,33 +77,39 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
-              <p className="py-2 text-gray-800 dark:text-gray-300">Support the manager in daily operations
-              · Manage staff and delegate tasks
-              · Monitor inventory and order supplies
+              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Support the manager in daily operations<br />
+              · Manage staff and delegate tasks<br />
+              · Monitor inventory and order supplies<br />
               · Analyzed sales data and make recommendations
               </p>
-              <h4 className='py-2 text-violet-500'>Online Impulse · 2023</h4>
+              <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
             </div>
             
             <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 IT Analyst
               </h3>
-              <p className="py-2 text-gray-800 dark:text-gray-300">Designing, analyzing and implementing efficient IT systems · Plan and oversee projects (e.g. upgrades, hardware/software installations) · Design efficient IT systems to meet business and technology needs · Integratet multiple systems and reconcile needs of different teams · Gather feedback from end users about system performance
+              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Designing, analyzing and implementing efficient IT systems<br />
+               · Plan and oversee projects (e.g. upgrades, hardware/software installations)<br /> 
+               · Design efficient IT systems to meet business and technology needs<br /> 
+               · Integratet multiple systems and reconcile needs of different teams<br /> 
+               · Gather feedback from end users about system performance
 
               </p>
               
-              <h4 className='py-2 text-violet-500'>Intensive Training · 2023</h4>
+              <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
-              <p className="py-2 text-gray-800 dark:text-gray-300">Designed and developed web applications using React, Node.js, and MongoDB · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs · Worked with clients to understand their business needs and develop solutions that met their requirements
+              <p className="py-2 text-gray-800 leading-8  dark:text-gray-300">· Designed and developed web applications using React, Node.js, and MongoDB<br />  
+              · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs<br />  
+              · Worked with clients to understand their business needs and develop solutions that met their requirements
 
               </p>
-              <h4 className='py-2 text-violet-500'>Freelancer · 2022</h4>
+              <h4 className='py-2 font-medium text-violet-500'>Freelancer · 2022</h4>
 
             </div>
             
@@ -111,14 +117,14 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
-              <p className="py-2 text-gray-800 dark:text-gray-300">Inspect and adjust vehicle alignment ·
-Diagnose and repair suspension and steering issues ·
-Using specialized tools and equipment ·
-Report to customers about recommended services ·
-Maintained accurate records of services performed
+              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Inspect and adjust vehicle alignment <br />
+              · Diagnose and repair suspension and steering issues <br />
+              · Using specialized tools and equipment <br />
+              · Report to customers about recommended services <br />
+              · Maintained accurate records of services performed
 
               </p>
-              <h4 className='py-2 text-violet-500'>EME Autocenter · 2021</h4>
+              <h4 className='py-2  text-violet-500 font-medium'>EME Autocenter · 2021</h4>
 
             </div>
             
@@ -143,17 +149,17 @@ Maintained accurate records of services performed
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Bachelor of Computer Engineering
               </h3>
-              <h4 className='py-2 text-violet-500'>Instituto Federal Fluminense Campus Campos</h4>
-              <h2 className="dark:text-gray-300">2022 - 2026</h2>
+              <h4 className='py-2 text-violet-500 font-medium'>Instituto Federal Fluminense Campus Campos</h4>
+              <h2 className="dark:text-gray-300">2022 · 2026</h2>
               <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Technical Course in Web Full Stack Development</h3>
-              <h4 className='py-2 text-violet-500'>Digital House, Rocketseat</h4>
-              <h2 className="dark:text-gray-300">2021 - 2022</h2>
+              <h4 className='py-2 text-violet-500 font-medium'>Digital House, Rocketseat</h4>
+              <h2 className="dark:text-gray-300">2021 · 2022</h2>
               <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Introduction to Data Engineering</h3>
-              <h4 className='py-2 text-violet-500'>DIO.me</h4>
+              <h4 className='py-2 text-violet-500 font-medium'>DIO.me</h4>
               <h2 className="dark:text-gray-300">2023</h2>
               
               
