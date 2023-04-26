@@ -77,7 +77,7 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
-              <p className="py-2 dark:text-gray-300">Support the manager in daily operations
+              <p className="py-2 text-gray-800 dark:text-gray-300">Support the manager in daily operations
               · Manage staff and delegate tasks
               · Monitor inventory and order supplies
               · Analyzed sales data and make recommendations
@@ -89,7 +89,7 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 IT Analyst
               </h3>
-              <p className="py-2 dark:text-gray-300">Designing, analyzing and implementing efficient IT systems · Plan and oversee projects (e.g. upgrades, hardware/software installations) · Design efficient IT systems to meet business and technology needs · Integratet multiple systems and reconcile needs of different teams · Gather feedback from end users about system performance
+              <p className="py-2 text-gray-800 dark:text-gray-300">Designing, analyzing and implementing efficient IT systems · Plan and oversee projects (e.g. upgrades, hardware/software installations) · Design efficient IT systems to meet business and technology needs · Integratet multiple systems and reconcile needs of different teams · Gather feedback from end users about system performance
 
               </p>
               
@@ -100,7 +100,7 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
-              <p className="py-2 dark:text-gray-300">Designed and developed web applications using React, Node.js, and MongoDB · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs · Worked with clients to understand their business needs and develop solutions that met their requirements
+              <p className="py-2 text-gray-800 dark:text-gray-300">Designed and developed web applications using React, Node.js, and MongoDB · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs · Worked with clients to understand their business needs and develop solutions that met their requirements
 
               </p>
               <h4 className='py-2 text-violet-500'>Freelancer · 2022</h4>
@@ -111,7 +111,7 @@ export default function Home() {
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
-              <p className="py-2 dark:text-gray-300">Inspect and adjust vehicle alignment ·
+              <p className="py-2 text-gray-800 dark:text-gray-300">Inspect and adjust vehicle alignment ·
 Diagnose and repair suspension and steering issues ·
 Using specialized tools and equipment ·
 Report to customers about recommended services ·
