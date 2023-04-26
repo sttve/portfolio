@@ -63,17 +63,17 @@ export default function Home() {
             <br>
             </br>
             <h3 className="text-3xl py-1 dark:text-gray-100 mt-10">About Me</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
             As an <span className="text-violet-500 py-10">Assistant Manager</span>, <span className="text-violet-500">IT Analyst</span>, and <span className="text-violet-500">Full-Stack Developer</span>, I have gained a diverse set of skills and experiences that have equipped me to excel in a variety of roles. My passion for technology and problem-solving has driven me to continuously improve my skills and stay up-to-date with the latest trends and technologies. I am a strong <span className="text-violet-500">communicator</span> and <span className="text-violet-500">collaborator</span>, and I am always looking for new challenges to tackle.
             </p>
             <br />
             <h3 className="text-3xl py-1 dark:text-gray-100">Job Experience</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development. I am skilled in using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
+            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
+            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development.<br></br> I am skilled in using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
             </p>
           </div>
           <div className="lg:flex gap-10" >
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
@@ -85,7 +85,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
             </div>
             
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 IT Analyst
               </h3>
@@ -100,7 +100,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
 
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
@@ -113,7 +113,7 @@ export default function Home() {
 
             </div>
             
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
@@ -133,8 +133,8 @@ export default function Home() {
         <section>
           <div className="">
             <h3 className="text-3xl py-1 dark:text-gray-100">Work</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-            I am excited about the opportunity to pursue a career as<span className="text-violet-500 py-10"> a software engineer</span> or <span className="text-violet-500 py-10">data engineer</span>. <br></br>I am deeply committed to using my skills and knowledge to create innovative solutions that address real-world problems and improve the quality of life for individuals and communities. Whether it’s developing software applications that streamline processes and increase efficiency, or designing data systems that provide valuable insights and inform decision-making, I am eager to contribute my talents and work collaboratively with others to achieve meaningful results.
+            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
+            I am excited about the opportunity to pursue a career as<span className="text-violet-500 py-10"> a Software Engineer</span> or <span className="text-violet-500 py-10">Data Scientist/Analyst</span>. <br></br><br></br>I am deeply committed to using my skills and knowledge to create innovative solutions that address real-world problems and improve the quality of life for individuals and communities. Whether it’s developing software applications that streamline processes and increase efficiency, or designing data systems that provide valuable insights and inform decision-making, I am eager to contribute my talents and work collaboratively with others to achieve meaningful results.
             </p>
 
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
             <section>
          
             <h3 className="text-3xl py-1 dark:text-gray-100 ">Education</h3>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Bachelor of Computer Engineering
               </h3>
