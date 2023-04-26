@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""} >
       <Head>
-        <title>Steven Anderson Alvarenga</title>
+        <title>Steven Ribeiro · Bio</title>
         <meta name="description" content="Steven"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -43,8 +43,8 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-violet-500 font-medium md:text-6xl'>Steven Alvarenga</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>Full Stack Developer</h3>
+            <h2 className='text-5xl py-2 text-violet-500 font-medium md:text-6xl'>Steven Ribeiro</h2>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>Full-Stack Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300">My expertise includes software development, project management, business development, and strategic planning. I am passionate about using technology to solve complex business problems and drive growth.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-300">
