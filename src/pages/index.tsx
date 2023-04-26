@@ -38,7 +38,7 @@ export default function Home() {
                 className="cursor-pointer text-2xl dark:text-gray-100"/>
               </li>
               <li> 
-                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8"href="https://www.linkedin.com/in/sttveandersona/">Resume</a>
+                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8"href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
               </li>
             </ul>
           </nav>
