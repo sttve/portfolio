@@ -43,11 +43,11 @@ export default function Home() {
                 className="cursor-pointer text-2xl dark:text-gray-100"/>
               </li>
               <li> 
-                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8"href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
+                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
               </li>
               <li>
   
-                <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8"href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
+                <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
               </li>
             </ul>
           </nav>
@@ -78,7 +78,7 @@ export default function Home() {
             <br />
             <h3 className="text-3xl py-1 dark:text-gray-100">Job Experience</h3>
             <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
-            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development.<br></br> I am skilled in using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
+            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development.<br></br> I am skilled in using a variety of programming languages and frameworks, including TypeScript, JavaScript, React, Next.js, HTML, CSS and Node.js.<br/>Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
             </p>
           </div>
           <div className="lg:flex gap-10 " >
