@@ -176,6 +176,10 @@ export default function Home() {
             <section>
               <footer>
                 <br />
+                
+                <p className="text-md md:text-xl py-0 pb-0 text-center dark:text-gray-100">Made by Steven Ribeiro</p>
+                <br />
+                <br />
               </footer>
             </section>
       
