@@ -82,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 " >
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
@@ -94,7 +94,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
             </div>
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 IT Analyst
               </h3>
@@ -109,7 +109,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
 
             </div>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
@@ -122,7 +122,7 @@ export default function Home() {
 
             </div>
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
@@ -153,8 +153,8 @@ export default function Home() {
           <div >
             <section>
          
-            <h3 className="text-3xl py-1 dark:text-gray-100 ">Education</h3>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
+            <h3 className="text-3xl py-1  dark:text-gray-100 ">Education</h3>
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Bachelor of Computer Engineering
               </h3>
