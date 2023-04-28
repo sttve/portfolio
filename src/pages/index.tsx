@@ -14,6 +14,11 @@ import web4 from "public/web4.png";
 import web5 from "public/web5.png";
 import web6 from "public/web6.png";
 import {useState} from "react";
+import Curriculum from 'next/curriculum';
+
+
+
+
 
 
 
@@ -40,6 +45,10 @@ export default function Home() {
               <li> 
                 <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8"href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
               </li>
+              <li>
+  
+                <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8"href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
+              </li>
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
@@ -62,7 +71,7 @@ export default function Home() {
           <div>
             <br>
             </br>
-            <h3 className="text-3xl py-1 dark:text-gray-100 mt-10">About Me</h3>
+            <h3 className="text-3xl py-1 dark:text-gray-100 mt-8">About Me</h3>
             <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
             As an <span className="text-violet-500 py-10">Assistant Manager</span>, <span className="text-violet-500">IT Analyst</span>, and <span className="text-violet-500">Full-Stack Developer</span>, I have gained a diverse set of skills and experiences that have equipped me to excel in a variety of roles. My passion for technology and problem-solving has driven me to continuously improve my skills and stay up-to-date with the latest trends and technologies. I am a strong <span className="text-violet-500">communicator</span> and <span className="text-violet-500">collaborator</span>, and I am always looking for new challenges to tackle.
             </p>
@@ -72,8 +81,8 @@ export default function Home() {
             In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development.<br></br> I am skilled in using a variety of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
             </p>
           </div>
-          <div className="lg:flex gap-10" >
-            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
+          <div className="lg:flex gap-10 " >
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
@@ -85,7 +94,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
             </div>
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 IT Analyst
               </h3>
@@ -100,7 +109,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
 
             </div>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
@@ -113,7 +122,7 @@ export default function Home() {
 
             </div>
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
@@ -145,7 +154,7 @@ export default function Home() {
             <section>
          
             <h3 className="text-3xl py-1 dark:text-gray-100 ">Education</h3>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-10 ">
+            <div className="text-center shadow-xl p-10 rounded-2xl my-8 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Bachelor of Computer Engineering
               </h3>
