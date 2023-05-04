@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from 'react-icons/ai';
 import deved from "public/dev-ed-wave.png";
 import design from "public/design.png";
 import code from "public/code.png";
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""} >
       <Head>
-        <title>Steven Ribeiro · Bio</title>
+        <title>Steven Ribeiro </title>
         <meta name="description" content="Steven"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -57,9 +57,15 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300">My expertise includes software development, project management, business development, and strategic planning. I am passionate about using technology to solve complex business problems and drive growth.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-300">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <AiFillTwitterCircle 
+            onClick={()=> window.open("https://twitter.com/StevenA63049428","_blank")}
+            className="cursor-pointer" />
+            <AiFillLinkedin
+            onClick={()=> window.open("https://www.linkedin.com/in/sttveandersona/","_blank")}
+            className="cursor-pointer" />
+            <AiFillGithub
+            onClick={()=> window.open("https://github.com/sttve?tab=repositories","_blank")}
+            className="cursor-pointer" />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-violet-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image alt="" src={deved} layout="fill" objectFit="cover"/>
