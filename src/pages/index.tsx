@@ -55,7 +55,7 @@ export default function Home() {
             onClick={()=> window.open("https://linkedin.com/in/sttveandersona/","_blank")}
             className="cursor-pointer" />
             <AiFillGithub
-            onClick={()=> window.open("https://github.com/sttve?tab=repositories","_blank")}
+            onClick={()=> window.open("https://github.com/sttve","_blank")}
             className="cursor-pointer" />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-violet-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
@@ -146,7 +146,7 @@ export default function Home() {
               <h4 className='py-2 text-violet-500 font-medium'>EME Autocenter · 2022</h4>
               <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                Assistant Mechanic
+                Mechanic Assistant
               </h3>
               <p className="py-2 font-medium text-gray-800 leading-6 dark:text-gray-300">· Conduct preventive and corrective maintenance on equipment and machinery, including pumps, compressors, and generators<br />
               · Performing troubleshooting and repairs on hydraulic, pneumatic, and mechanic systems<br />
