@@ -1,18 +1,10 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
+
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from 'react-icons/ai';
 import deved from "public/dev-ed-wave.png";
-import design from "public/design.png";
-import code from "public/code.png";
-import consulting from "public/consulting.png";
-import web1 from "public/web1.png";
-import web2 from "public/web2.png";
-import web3 from "public/web3.png";
-import web4 from "public/web4.png";
-import web5 from "public/web5.png";
-import web6 from "public/web6.png";
+
 import {useState} from "react";
 
 
@@ -46,7 +38,6 @@ export default function Home() {
                 <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
               </li>
               <li>
-  
                 <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
               </li>
             </ul>
@@ -61,7 +52,7 @@ export default function Home() {
             onClick={()=> window.open("https://twitter.com/StevenA63049428","_blank")}
             className="cursor-pointer" />
             <AiFillLinkedin
-            onClick={()=> window.open("https://www.linkedin.com/in/sttveandersona/","_blank")}
+            onClick={()=> window.open("https://linkedin.com/in/sttveandersona/","_blank")}
             className="cursor-pointer" />
             <AiFillGithub
             onClick={()=> window.open("https://github.com/sttve?tab=repositories","_blank")}
@@ -89,59 +80,87 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10 " >
             <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
+            <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
+                IT Analyst
+              </h3>
+              <p className="py-2 font-medium text-gray-800 leading-6 dark:text-gray-300">· Designing, analyzing and implementing efficient IT systems<br />
+               · Plan and oversee projects<br /> (e.g. upgrades, hardware/software installations)<br /> 
+               · Design efficient IT systems to meet business and technology needs<br /> 
+               · Integratet multiple systems and reconcile needs of different teams<br /> 
+               · Gather feedback from end users about system performance
+              </p>
+              <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
+              <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Assistant Manager
               </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Support the manager in daily operations<br />
+              <p className="py-2 font-medium text-gray-800 leading-6 dark:text-gray-300">· Support the manager in daily operations<br />
               · Manage staff and delegate tasks<br />
               · Monitor inventory and order supplies<br />
               · Analyzed sales data and make recommendations
               </p>
-              <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
+              <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2022</h4> 
             </div>
             
             <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                IT Analyst
-              </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Designing, analyzing and implementing efficient IT systems<br />
-               · Plan and oversee projects (e.g. upgrades, hardware/software installations)<br /> 
-               · Design efficient IT systems to meet business and technology needs<br /> 
-               · Integratet multiple systems and reconcile needs of different teams<br /> 
-               · Gather feedback from end users about system performance
-
-              </p>
-              
-              <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
-
-            </div>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Full Stack Jr. Developer
               </h3>
-              <p className="py-2 text-gray-800 leading-8  dark:text-gray-300">· Designed and developed web applications using React, Node.js, and MongoDB<br />  
+              <p className="py-2 font-medium text-gray-800 leading-6  dark:text-gray-300">· Designed and developed web applications using React, Node.js, and MongoDB<br />  
               · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs<br />  
               · Worked with clients to understand their business needs and develop solutions that met their requirements
 
               </p>
               <h4 className='py-2 font-medium text-violet-500'>Freelancer · 2022</h4>
+              <br />
+              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
+                Skills
+              </h3>
+              <p className="py-2 text-gray-800 font-medium  leading-6 dark:text-gray-300">
+              · JavaScript (ES6+)/TypeScript<br />
+              · React/ Node.js<br /> 
+              · Vue.js/ Nextjs<br /> 
+              · HTML/ CSS<br /> 
+              · Git/ GitHub<br /> 
+              · Agile/Scrum methodologies<br />
+              · Project management<br /> 
+              · Team leadership<br /> 
+              · Excellent communication and collaboration abilities
+
+
+              </p>
+              
 
             </div>
-            
+          
             <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
                 Alignment Technician
               </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Inspect and adjust vehicle alignment <br />
-              · Diagnose and repair suspension and steering issues <br />
-              · Using specialized tools and equipment <br />
-              · Report to customers about recommended services <br />
+              <p className="py-2 font-medium text-gray-800 leading-6 dark:text-gray-300">· Inspect and adjust vehicle alignment<br />
+              · Diagnose and repair suspension and steering issues<br />
+              · Using specialized tools and equipment<br />
+              · Report to customers about recommended services<br />
               · Maintained accurate records of services performed
-
               </p>
-              <h4 className='py-2  text-violet-500 font-medium'>EME Autocenter · 2021</h4>
-
+              <h4 className='py-2 text-violet-500 font-medium'>EME Autocenter · 2022</h4>
+              <br />
+              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
+                Assistant Mechanic
+              </h3>
+              <p className="py-2 font-medium text-gray-800 leading-6 dark:text-gray-300">· Conduct preventive and corrective maintenance on equipment and machinery, including pumps, compressors, and generators<br />
+              · Performing troubleshooting and repairs on hydraulic, pneumatic, and mechanic systems<br />
+              · Conducting welding and fabrication work as needed<br />
+              · Maintained accurate records of maintenance activities and reported to management<br />
+              · Ensured compliance with safety regulations and procedures
+              </p>
+              <h4 className='py-2 text-violet-500 font-medium'>285 Garage · 2017</h4>
+              <br />
+              
             </div>
+
+            
+          
             
           </div>
         </section>
@@ -154,7 +173,7 @@ export default function Home() {
 
           </div>
 
-<br />
+          <br />
            
           <div >
             <section>
@@ -165,27 +184,27 @@ export default function Home() {
               Bachelor of Computer Engineering
               </h3>
               <h4 className='py-2 text-violet-500 font-medium'>Instituto Federal Fluminense Campus Campos</h4>
-              <h2 className="dark:text-gray-300">2022 · 2026</h2>
+              <h2 className="dark:text-gray-300 font-medium">2022 · 2026</h2>
               <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Technical Course in Web Full Stack Development</h3>
               <h4 className='py-2 text-violet-500 font-medium'>Digital House, Rocketseat</h4>
-              <h2 className="dark:text-gray-300">2021 · 2022</h2>
+              <h2 className="dark:text-gray-300 font-medium">2021 · 2022</h2>
               <br />
               <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
               Introduction to Data Engineering</h3>
               <h4 className='py-2 text-violet-500 font-medium'>DIO.me</h4>
-              <h2 className="dark:text-gray-300">2023</h2>
+              <h2 className="dark:text-gray-300 font-medium">2023</h2>
               
               
             </div>
             <section>
               <footer>
-                <br />
+           
                 
-                <p className="text-md md:text-xl py-0 pb-0 text-center dark:text-gray-100">Made by Steven Ribeiro</p>
+                <h2 className="text-md md:text-xl py-0 pb-0 text-center dark:text-gray-100">Made by Steven Ribeiro</h2>
                 <br />
-                <br />
+     
               </footer>
             </section>
       
