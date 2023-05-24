@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub } from 'react-icons/ai';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import deved from "public/dev-ed-wave.png";
 
 import { useState } from "react";
@@ -35,7 +35,7 @@ export default function Home() {
                   className="cursor-pointer text-2xl dark:text-gray-100" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
+                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://calendly.com/d/2jt-w2n-z63/consultant-interviews-and-freelancing">Contact</a>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
@@ -118,7 +118,7 @@ export default function Home() {
                 Skills
               </h3>
               <p className="py-2 text-gray-800 font-medium  leading-6 dark:text-gray-300">
-                · JavaScript/ TypeScript<br />
+                · Javascript/ Typescript<br />
                 · React/ Next.js<br />
                 · Node.js/ Python<br />
                 · HTML/ CSS<br />
