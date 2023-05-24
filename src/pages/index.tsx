@@ -123,7 +123,7 @@ export default function Home() {
                 · Node.js/ Python<br />
                 · HTML/ CSS<br />
                 · Git/ Github<br />
-                · Agile/Scrum methodologies<br />
+                · Agile/ Scrum methodologies<br />
                 · Project management<br />
                 · Team leadership<br />
                 · Excellent communication and collaboration abilities
