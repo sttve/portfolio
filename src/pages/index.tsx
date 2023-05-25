@@ -35,7 +35,7 @@ export default function Home() {
                   className="cursor-pointer text-2xl dark:text-gray-100" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://calendly.com/d/2jt-w2n-z63/consultant-interviews-and-freelancing">Contact</a>
+                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://cal.com/stevenandersona/30min">Contact</a>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
